@@ -1,0 +1,160 @@
+/* just for reference, the sidebar css mostly downloaded from a template and slightly modified */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVc.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4gaVc.ttf) format('truetype');
+}
+
+body {
+  color: #5D5F63;
+  background: #293949;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.sidebar-toggle {
+  margin-left: -260px;
+}
+
+.sidebar {
+  width: 280px;
+  height: 100%;
+  background: #293949;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 0;
+}
+
+.sidebar .dcs-logo {
+  vertical-align: middle;
+  margin-left: 18px;
+}
+
+.sidebar span.dcs-title {
+  height: 10px;
+  vertical-align: text-bottom;
+  color: #cadad7;
+}
+
+.sidebar #leftside-navigation ul,
+.sidebar #leftside-navigation ul ul {
+  margin: -2px 0 0;
+  padding: 0;
+}
+
+.sidebar #leftside-navigation ul li {
+  list-style-type: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.sidebar #leftside-navigation ul li.active>a {
+  color: #1abc9c;
+}
+
+.sidebar #leftside-navigation ul li.active ul {
+  display: block;
+}
+
+.sidebar #leftside-navigation ul li a {
+  color: #aeb2b7;
+  text-decoration: none;
+  display: block;
+  padding: 18px 0 18px 25px;
+  font-size: 12px;
+  outline: 0;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+
+.sidebar #leftside-navigation ul li a:hover {
+  color: #1abc9c;
+}
+
+.sidebar #leftside-navigation ul li a span {
+  display: inline-block;
+}
+
+.sidebar #leftside-navigation ul li a i {
+  width: 20px;
+}
+
+.sidebar #leftside-navigation ul li a i .fa-angle-left,
+.sidebar #leftside-navigation ul li a i .fa-angle-right {
+  padding-top: 3px;
+}
+
+.sidebar #leftside-navigation ul ul {
+  display: none;
+}
+
+.sidebar #leftside-navigation ul ul li {
+  background: #23313f;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border-bottom: none;
+}
+
+.sidebar #leftside-navigation ul ul li a {
+  font-size: 12px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: #aeb2b7;
+}
+
+.sidebar #leftside-navigation span#copyright {
+  padding: 1rem;
+  font-size: 8px;
+  color: #aeb2b7;
+  vertical-align: bottom;
+}
+
+
+.sidebar #leftside-navigation ul ul li span.filename-container a {
+  font-size: 11px;
+  text-decoration: underline;
+}
+
+.sidebar #file-name-display {
+  /* position: absolute; */
+  margin-top: 0rem;
+  padding: 2px;
+  font-size: 10px;
+  margin-top: 0rem;
+  color: #1abc9c;
+  text-overflow: hidden;
+  padding: 0rem 0.5rem;
+}
