@@ -1,0 +1,486 @@
+{
+    "coalition": {
+        "blue": {
+            "bullseye": {
+                "x": -291014,
+                "y": 617414
+            },
+            "country": [],
+            "name": "blue",
+            "nav_points": []
+        },
+        "neutrals": {
+            "bullseye": {
+                "x": 0,
+                "y": 0
+            },
+            "country": [],
+            "name": "neutrals",
+            "nav_points": []
+        },
+        "red": {
+            "bullseye": {
+                "x": 941.18952785945,
+                "y": 45630.971881652
+            },
+            "country": [],
+            "name": "red",
+            "nav_points": []
+        }
+    },
+    "coalitions": {
+        "blue": [
+            80
+        ],
+        "neutrals": [
+            18,
+            70,
+            83,
+            21,
+            23,
+            65,
+            24,
+            11,
+            86,
+            64,
+            25,
+            8,
+            63,
+            27,
+            28,
+            76,
+            84,
+            26,
+            13,
+            90,
+            29,
+            62,
+            30,
+            5,
+            78,
+            16,
+            6,
+            87,
+            31,
+            61,
+            32,
+            33,
+            60,
+            17,
+            34,
+            35,
+            15,
+            69,
+            20,
+            36,
+            59,
+            37,
+            71,
+            79,
+            58,
+            57,
+            56,
+            55,
+            88,
+            38,
+            12,
+            73,
+            39,
+            89,
+            54,
+            40,
+            77,
+            72,
+            41,
+            0,
+            42,
+            43,
+            44,
+            85,
+            75,
+            45,
+            19,
+            9,
+            53,
+            46,
+            22,
+            47,
+            52,
+            10,
+            66,
+            51,
+            3,
+            4,
+            1,
+            74,
+            82,
+            2,
+            7,
+            68,
+            50,
+            49,
+            48,
+            67
+        ],
+        "red": [
+            81
+        ]
+    },
+    "currentKey": 12,
+    "date": {
+        "Day": 21,
+        "Month": 6,
+        "Year": 2016
+    },
+    "descriptionBlueTask": "DictKey_descriptionBlueTask_3",
+    "descriptionNeutralsTask": "DictKey_descriptionNeutralsTask_4",
+    "descriptionRedTask": "DictKey_descriptionRedTask_2",
+    "descriptionText": "DictKey_descriptionText_1",
+    "drawings": {
+        "layers": [
+            {
+                "name": "Red",
+                "objects": [],
+                "visible": true
+            },
+            {
+                "name": "Blue",
+                "objects": [],
+                "visible": true
+            },
+            {
+                "name": "Neutral",
+                "objects": [],
+                "visible": true
+            },
+            {
+                "name": "Common",
+                "objects": [],
+                "visible": true
+            },
+            {
+                "name": "Author",
+                "objects": [
+                    {
+                        "closed": false,
+                        "colorString": "0xff0000ff",
+                        "layerName": "Author",
+                        "lineMode": "segments",
+                        "mapX": -47.641272305403,
+                        "mapY": 201.58443040051,
+                        "name": "Line-1",
+                        "points": [
+                            {
+                                "x": 0,
+                                "y": 0
+                            },
+                            {
+                                "x": 1125.22125536,
+                                "y": 45724.900104175
+                            },
+                            {
+                                "x": -50225.785125615,
+                                "y": 11252.2125536
+                            },
+                            {
+                                "x": -32778.195452236,
+                                "y": -1036.2488445603
+                            },
+                            {
+                                "x": 2.4583322522881,
+                                "y": -155.574563783
+                            }
+                        ],
+                        "primitiveType": "Line",
+                        "style": "solid",
+                        "thickness": 8,
+                        "visible": true
+                    },
+                    {
+                        "colorString": "0xff0000ff",
+                        "fillColorString": "0xffff0080",
+                        "layerName": "Author",
+                        "mapX": 1060.5525458117,
+                        "mapY": 11.76142236506,
+                        "name": "circle",
+                        "polygonMode": "circle",
+                        "primitiveType": "Polygon",
+                        "radius": 45541.164912973,
+                        "style": "solid",
+                        "thickness": 8,
+                        "visible": true
+                    },
+                    {
+                        "angle": 359,
+                        "colorString": "0xff0000ff",
+                        "fillColorString": "0x00ff0080",
+                        "layerName": "Author",
+                        "mapX": 553.37041341314,
+                        "mapY": 23007.646892518,
+                        "name": "oval",
+                        "polygonMode": "oval",
+                        "primitiveType": "Polygon",
+                        "r1": 10241.908027328,
+                        "r2": 22928.658616019,
+                        "style": "solid",
+                        "thickness": 1,
+                        "visible": true
+                    },
+                    {
+                        "angle": -143.86359173453,
+                        "colorString": "0x0000ffff",
+                        "fillColorString": "0x00008080",
+                        "layerName": "Author",
+                        "length": 31371.179250282,
+                        "mapX": -68887.086012929,
+                        "mapY": 36745.668216495,
+                        "name": "arrow",
+                        "points": [
+                            {
+                                "x": 3921.3974062852,
+                                "y": 0
+                            },
+                            {
+                                "x": 3921.3974062852,
+                                "y": 20914.119500188
+                            },
+                            {
+                                "x": 10457.059750094,
+                                "y": 20914.119500188
+                            },
+                            {
+                                "x": 0,
+                                "y": 31371.179250282
+                            },
+                            {
+                                "x": -10457.059750094,
+                                "y": 20914.119500188
+                            },
+                            {
+                                "x": -3921.3974062852,
+                                "y": 20914.119500188
+                            },
+                            {
+                                "x": -3921.3974062852,
+                                "y": 0
+                            },
+                            {
+                                "x": 3921.3974062852,
+                                "y": 0
+                            }
+                        ],
+                        "polygonMode": "arrow",
+                        "primitiveType": "Polygon",
+                        "style": "solid",
+                        "thickness": 1,
+                        "visible": true
+                    },
+                    {
+                        "angle": 0,
+                        "colorString": "0xff00ffff",
+                        "fillColorString": "0x8000ff80",
+                        "height": 9945.0807051732,
+                        "layerName": "Author",
+                        "mapX": -4028.3611184898,
+                        "mapY": 51969.660446283,
+                        "name": "rect",
+                        "polygonMode": "rect",
+                        "primitiveType": "Polygon",
+                        "style": "solid",
+                        "thickness": 8,
+                        "visible": true,
+                        "width": 12128.439798468
+                    },
+                    {
+                        "angle": 270,
+                        "borderThickness": 20,
+                        "colorString": "0xffff00ff",
+                        "fillColorString": "0x00000080",
+                        "font": "DejaVuLGCSansCondensed.ttf",
+                        "fontSize": 24,
+                        "layerName": "Author",
+                        "mapX": 9073.8205092168,
+                        "mapY": 56.596939709369,
+                        "name": "Text Box-1",
+                        "primitiveType": "TextBox",
+                        "text": "THIS IS A CIRCLE\n",
+                        "visible": true
+                    },
+                    {
+                        "angle": 0,
+                        "colorString": "0xffffffff",
+                        "file": "P91000006.png",
+                        "layerName": "Author",
+                        "mapX": 16450.528187867,
+                        "mapY": 12069.486534353,
+                        "name": "Icon-1",
+                        "primitiveType": "Icon",
+                        "scale": 5,
+                        "visible": true
+                    }
+                ],
+                "visible": true
+            }
+        ],
+        "options": {
+            "hiddenOnF10Map": {
+                "ArtilleryCommander": {
+                    "Blue": false,
+                    "Neutral": false,
+                    "Red": false
+                },
+                "ForwardObserver": {
+                    "Blue": false,
+                    "Neutral": false,
+                    "Red": false
+                },
+                "Instructor": {
+                    "Blue": false,
+                    "Neutral": false,
+                    "Red": false
+                },
+                "Observer": {
+                    "Blue": false,
+                    "Neutral": false,
+                    "Red": false
+                },
+                "Pilot": {
+                    "Blue": false,
+                    "Neutral": false,
+                    "Red": false
+                },
+                "Spectrator": {
+                    "Blue": false,
+                    "Neutral": false,
+                    "Red": false
+                }
+            }
+        }
+    },
+    "failures": [],
+    "forcedOptions": [],
+    "goals": [],
+    "groundControl": {
+        "isPilotControlVehicles": false,
+        "passwords": {
+            "artillery_commander": [],
+            "forward_observer": [],
+            "instructor": [],
+            "observer": []
+        },
+        "roles": {
+            "artillery_commander": {
+                "blue": 0,
+                "neutrals": 0,
+                "red": 0
+            },
+            "forward_observer": {
+                "blue": 0,
+                "neutrals": 0,
+                "red": 0
+            },
+            "instructor": {
+                "blue": 0,
+                "neutrals": 0,
+                "red": 0
+            },
+            "observer": {
+                "blue": 0,
+                "neutrals": 0,
+                "red": 0
+            }
+        }
+    },
+    "map": {
+        "centerX": -9627.958029325,
+        "centerY": -20983.878078215,
+        "zoom": 240513.0481164
+    },
+    "maxDictId": 5,
+    "pictureFileNameB": [],
+    "pictureFileNameN": [],
+    "pictureFileNameR": [],
+    "requiredModules": [],
+    "result": {
+        "blue": {
+            "actions": [],
+            "conditions": [],
+            "func": []
+        },
+        "offline": {
+            "actions": [],
+            "conditions": [],
+            "func": []
+        },
+        "red": {
+            "actions": [],
+            "conditions": [],
+            "func": []
+        },
+        "total": 0
+    },
+    "sortie": "DictKey_sortie_5",
+    "start_time": 28800,
+    "theatre": "Caucasus",
+    "trig": {
+        "actions": [],
+        "conditions": [],
+        "custom": [],
+        "customStartup": [],
+        "events": [],
+        "flag": [],
+        "func": [],
+        "funcStartup": []
+    },
+    "triggers": {
+        "zones": []
+    },
+    "trigrules": [],
+    "version": 22,
+    "weather": {
+        "atmosphere_type": 0,
+        "clouds": {
+            "base": 2500,
+            "density": 0,
+            "iprecptns": 0,
+            "preset": "Preset2",
+            "thickness": 200
+        },
+        "cyclones": [],
+        "dust_density": 0,
+        "enable_dust": false,
+        "enable_fog": false,
+        "fog": {
+            "thickness": 0,
+            "visibility": 0
+        },
+        "groundTurbulence": 0,
+        "halo": {
+            "preset": "auto"
+        },
+        "modifiedTime": false,
+        "name": "Winter, clean sky",
+        "qnh": 760,
+        "season": {
+            "temperature": 20
+        },
+        "type_weather": 0,
+        "visibility": {
+            "distance": 80000
+        },
+        "wind": {
+            "at2000": {
+                "dir": 0,
+                "speed": 0
+            },
+            "at8000": {
+                "dir": 0,
+                "speed": 0
+            },
+            "atGround": {
+                "dir": 0,
+                "speed": 0
+            }
+        }
+    }
+}
