@@ -49,6 +49,10 @@ export function init(register: Function) {
 
 export function onClick(event: Event) {
     console.log("my plugin was clicked", event);
+
+    // You could open a new UI window here, a Vue 3 component which will be overlayed over the map
+    // on the right side. However we will do a much simpler example here and directly perform
+    // an action on click.
     
     // example. you can also load weather from live weather services
     const myWeather = { "atmosphere_type": 0, "clouds": { "base": 300, "density": 0, "iprecptns": 0, "thickness": 200 }, "cyclones": [], "dust_density": 0, "enable_dust": false, "enable_fog": false, "fog": { "thickness": 0, "visibility": 0 }, "groundTurbulence": 0, "name": "Winter, clean sky", "qnh": 759.46, "season": { "temperature": 20 }, "type_weather": 0, "visibility": { "distance": 80000 }, "wind": { "at2000": { "dir": 232, "speed": 3.6078 }, "at8000": { "dir": 236, "speed": 4.1232 }, "atGround": { "dir": 221, "speed": 3.6078 } } }
