@@ -147,14 +147,3 @@ body {
   font-size: 11px;
   text-decoration: underline;
 }
-
-.sidebar #file-name-display {
-  /* position: absolute; */
-  margin-top: 0rem;
-  padding: 2px;
-  font-size: 10px;
-  margin-top: 0rem;
-  color: #1abc9c;
-  text-overflow: hidden;
-  padding: 0rem 0.5rem;
-}

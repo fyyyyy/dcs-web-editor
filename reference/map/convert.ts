@@ -1,3 +1,6 @@
+
+// Outdated conversion using lookup tables
+
 // convert y/x coordinats from DCS to lat lon
 // Port from lua to JS
 // Accuracy not that great, as resolution of lookup tables is 50km
