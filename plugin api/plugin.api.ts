@@ -2,23 +2,19 @@ import { defineStore } from 'pinia'
 
 // from core api, not directly accessible by plugin api
 import { FileStore } from './file'
-const fileStore = FileStore()
+const fileStore = FileStore();
 
 /* 
- * Plugins receive an instance of PluginStore, where they can register themselves
- * and perform changes to the mission file, read files from the .miz or add their own files.
+ * Plugins receive an instance of PluginStore after they register themselves.
+ * They can perform changes to the mission file, read files from the .miz or add their own files.
  */
 export const PluginStore = defineStore('plugin', {
     state: () => {
         return {
-            plugins: []
+            permissions: []
         }
     },
     actions: {
-        register(plugin: any) {
-            // do checks here
-            this.plugins.push(plugin);
-        },
         setWeather(weatherJson: any) {
             // do checks here
             fileStore.json.weather = weatherJson;
