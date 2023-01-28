@@ -19,7 +19,27 @@ export function init(register: Function) {
         // plugin tags for search
         tags: ["weather", "METAR", "environment"],
 
-        // which apis does this plugin need, requires user consent
+        /*
+            Which apis does this plugin need, requires user consent
+            
+            weather: change mission weather
+            
+            date: change mission day time
+            
+            goals: change mission goals
+            
+            zones: change mission trigger zones
+            
+            requiredModules: change mission required modules / mods
+
+            units: change mission units & waypoints
+            
+            mission: change all aspects of mission
+            
+            file-read: read files from .miz
+            
+            file-write: write files to .miz
+        */
         apis: ["weather"]
     })
     
