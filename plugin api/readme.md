@@ -1,4 +1,4 @@
-# Example Plugin:
+# Example Plugin (draft):
 
 
 ```js
